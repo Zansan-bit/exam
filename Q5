@@ -1,0 +1,9 @@
+list = (13,17,31,57,,41,83)
+
+goke1 = 0
+for i in range(0,len(list))
+  goke1 = goke+list[i]
+    print(gokei)
+    
+num=gokei/len(list)
+print(num)
