@@ -1,0 +1,8 @@
+
+def  email ():
+	print('yt@gmali.com')
+email2  = input('メールアドレスを記入')
+if email2 == email():
+		print('OK')
+else :
+		print('だめ')
