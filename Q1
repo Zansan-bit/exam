@@ -1,0 +1,3 @@
+User_ster_string= ('fdjak;jfil;qj')
+print(len(User_ster_string))
+
