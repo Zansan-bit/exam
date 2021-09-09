@@ -4,3 +4,6 @@ def  mail(input_string1,input_string2):
         print('OKです')
     else :
         print('idかパスワードが違います')
+mailID(inpot())
+mailpass(inpot())
+mail(mailID,mailpass)
