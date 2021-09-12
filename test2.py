@@ -1,14 +1,11 @@
-# exam
+import re
 def  mail(input_string):
-	if input_string == '@':
+    if (re.search('@',input_string)):
+        if (re.search('.com',input_string)):
+            print("メールアドレスです")
+        else :
+            print('何かがおかしい')
+    else:
+        print('何かおかしい')
 
-		if input_string == '.com'
-			print('承認されました')
-		else :
-			print('何かがおかしいです')
-	else :
-		print('何かがおかしいです')
-
-
-mail(input('入力してください。'))
-
+mail(input('メールアドレスを入力してください'))
